@@ -2,11 +2,11 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import datetime as t
-import matplotlib.pylab as plt
-from sklearn.metrics import mean_squared_error
-from croston import croston
+#import matplotlib.pylab as plt
+#from sklearn.metrics import mean_squared_error
+#from croston import croston
 
-from pmdarima.arima import auto_arima
+#from pmdarima.arima import auto_arima
 from statsmodels.tsa.arima.model import ARIMA
 
 from matplotlib import rcParams
@@ -14,7 +14,7 @@ from matplotlib import rcParams
 rcParams['figure.figsize'] = 10, 6
 
 from io import BytesIO
-from pyxlsb import open_workbook as open_xlsb
+#from pyxlsb import open_workbook as open_xlsb
 
 import warnings
 
