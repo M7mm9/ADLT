@@ -39,7 +39,6 @@ def to_excel(df):
 
 Subscriptions_Data = pd.read_csv(r"https://raw.githubusercontent.com/M7mm9/ADLT/main/Subscriptions.csv")
 UserName_list = Subscriptions_Data['UserName'].tolist()
-st.write(UserName_list)
 Creation_Date = pd.to_datetime(Subscriptions_Data['CreationDate'])
 Creation_Date = Creation_Date.tolist()
 
