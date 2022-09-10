@@ -37,7 +37,7 @@ def to_excel(df):
 
 #Subscriptions = open(r"\\TABLET-R9GJ9EIS\Users\maham\Desktop\ADLT\Subscriptions.xlsx")
 
-Subscriptions_Data = pd.read_excel(r"\\TABLET-R9GJ9EIS\Users\maham\Desktop\ADLT\Subscriptions.xlsx")
+Subscriptions_Data = pd.read_excel(r"https://github.com/M7mm9/ADLT/blob/main/Subscriptions.xlsx")
 UserName_list = Subscriptions_Data['UserName'].tolist()
 Creation_Date = Subscriptions_Data['CreationDate'].tolist()
 
