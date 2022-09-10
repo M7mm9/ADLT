@@ -51,7 +51,7 @@ if UserName in UserName_list:
     Today = t.datetime(t.date.today().year, t.date.today().month, t.date.today().day)
 
     if Today <= FinishDate:
-
+ 
         st.title("ARIMA Double Layering AI Tool (Al Haitam Data)")
         Year = st.sidebar.selectbox('Current Year', (2022, 2023, 2024))
         st.sidebar.write('--------------')
