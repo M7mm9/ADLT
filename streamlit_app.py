@@ -32,8 +32,15 @@ def to_excel(df):
     return processed_data
 
 
-UserName_list = ["A", "B", "C"]
-Creation_Date = [t.datetime(2022, 8, 14,), t.datetime(2022, 8, 1,), t.datetime(2022, 8, 27,)]
+#UserName_list = ["A", "B", "C"]
+#Creation_Date = [t.datetime(2022, 8, 14,), t.datetime(2022, 8, 1,), t.datetime(2022, 8, 27,)]
+
+#Subscriptions = open(r"\\TABLET-R9GJ9EIS\Users\maham\Desktop\ADLT\Subscriptions.xlsx")
+
+Subscriptions_Data = pd.read_excel(r"\\TABLET-R9GJ9EIS\Users\maham\Desktop\ADLT\Subscriptions.xlsx")
+UserName_list = Subscriptions_Data['UserName'].tolist()
+Creation_Date = Subscriptions_Data['CreationDate'].tolist()
+
 st.header('Verification')
 UserName = st.text_input('Verify Your Subscribtion')
 if UserName in UserName_list:
