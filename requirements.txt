@@ -7,3 +7,4 @@ croston==0.1.2.4
 pmdarima==2.0.1
 statsmodels==0.13.2
 pyxlsb==1.0.9
+matplotlib==3.5.3
