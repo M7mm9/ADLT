@@ -9,3 +9,4 @@ statsmodels==0.13.2
 pyxlsb==1.0.9
 matplotlib==3.5.3
 XlsxWriter==3.0.3
+openpyxl==3.0.10
